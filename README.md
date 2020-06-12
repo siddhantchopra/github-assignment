@@ -11,6 +11,7 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## This is a SPA which has two routes and is an responsive app
+This application consist of React hooks, functional components, Bootstrap & reactstrap, React router and Redux (for storing data)
 
 ### "/" where you can search github users
 
