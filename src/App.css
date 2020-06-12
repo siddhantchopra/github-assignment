@@ -1,0 +1,29 @@
+.repo .fa{
+padding-right: 10px;
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+  background-color:#f3f3f3;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.repo.list-group p{
+  word-break: break-all;
+}
+
+.list-group{
+  max-height: 500px;
+  margin-bottom: 10px;
+  /* overflow: scroll; */
+  overflow-y: auto;
+
+}
