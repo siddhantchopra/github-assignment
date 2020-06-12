@@ -21,7 +21,8 @@ const RepoList = (props) => {
         )
     } else {
         return (
-            <div className="col-12 col-md-5 m-1">
+            // <div className="col-12 col-md-5 m-1">
+            <div className="col-9">
                 <ListGroup className="repo">
                     {
                         props.userRepoList && props.userRepoList.length > 0 ? props.userRepoList.map((data, index) => {

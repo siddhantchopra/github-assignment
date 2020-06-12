@@ -28,7 +28,7 @@ export const reducerCreator = (state = { isLoading: false, errMess: null, }, { t
         case 'RESET_RESULT':
             return {
                 ...state,
-                userList: [],
+                userList: null,
                 userDetail: [],
                 userRepoList: [],
                 errMess: null

@@ -20,7 +20,7 @@ const UserList=(props)=>{
             <div className="col-12">
                 <ul className="list-group list-group-flush">
             {
-                props.userList && props.userList.map((data, index) => {
+                props.userList && props.userList.length > 0 ? props.userList.map((data, index) => {
                     return <Link key={index} to={routingConstants.USER+"/"+data.login}>
                         <li className="list-group-item"><Media>
                             <Media left className="mr-5 mt-2">
@@ -31,7 +31,7 @@ const UserList=(props)=>{
                             </Media>
                         </Media> </li>
                     </Link>
-                })
+                }) : props.userList &&  "No Result Found"
             }
             </ul>
         </div>

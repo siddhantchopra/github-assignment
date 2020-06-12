@@ -21,8 +21,9 @@ const UserCard = (props) => {
     }
     else{
         return (
-            <div className="col-12 col-md-5 m-1">
-                <div className="card" style={{ "width": "18rem" }}>
+            // <div className="col-12 col-md-5 m-1">
+            <div className="col-3">
+                <div className="card">
                     <img className="card-img-top" src={props.userDetail && props.userDetail.avatar_url} alt={props.userDetail && props.userDetail.login} />
                     <div className="card-body">
                         <h5 className="card-title">{props.userDetail && props.userDetail.name}</h5>
