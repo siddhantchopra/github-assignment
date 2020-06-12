@@ -14,7 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### "/" where you can search github users
 
-#### Here is a screenshot for the scenario
+#### Here is a screenshot for above scenario
 ![Screenshot-search](https://user-images.githubusercontent.com/30842286/84473784-45df4f00-aca7-11ea-9472-403777b32735.png)
 
 ### "/user/:username" which has detail page of user consist of Repo and user information
+
+#### Here is a screenshot for above scenario
+
+![Screenshot-user-repo-list](https://user-images.githubusercontent.com/30842286/84473954-9656ac80-aca7-11ea-8573-f8bac0c62ad6.png)
