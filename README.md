@@ -12,6 +12,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## This is a SPA which has two routes and is an responsive app
 This application consist of React hooks, functional components, Bootstrap & reactstrap, React router and Redux (for storing data)
+Just to decrease the number of hits for searching a username, I have implemented debounce
 
 ### "/" where you can search github users
 
